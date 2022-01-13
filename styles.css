@@ -1,27 +1,45 @@
 body {
   margin: 0;
-  font-family: sans-serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 h1 {
   margin: 0;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-family: "Sacramento", cursive;
   color: #e06c68;
 }
 
-p {
-  font-family: "Merriweather", serif;
-  font-size: 1.2rem;
+h2 {
+  font-size: 2rem;
+  color: #ffad60;
+}
+
+h3 {
+  color: #d48942;
 }
 
 img {
   user-select: none;
 }
 
+hr {
+  width: 10%;
+  border: none;
+  border-top: dotted;
+  border-width: 0.8rem;
+  border-color: #d9534f;
+  opacity: 0.4;
+}
+
+p {
+  line-height: 2rem;
+}
+
 /* heading */
 
-.heading-container {
+#heading-container {
   height: 100vh;
   text-align: center;
   background-color: #fff1b7;
@@ -29,7 +47,7 @@ img {
 }
 
 .heading-text-container {
-  width: 30rem;
+  width: 35rem;
   margin: 0 auto;
   position: relative;
   top: 50%;
@@ -65,6 +83,84 @@ img {
 
 .heading-p {
   font-size: 1.5rem;
+}
+
+/* Middle container */
+.profile {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.profile-photo {
+  width: 200px;
+}
+
+.skill-img {
+  width: 200px;
+}
+
+.skills {
+  margin: 70px 0;
+}
+
+.skill-row {
+  width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30px;
+}
+
+.skill-text-webdev {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.skill-text-hacking {
+  text-align: right;
+  margin-right: 30px;
+}
+
+/* Contact */
+.contact-me {
+  padding: 100px 0;
+  width: 45rem;
+  margin: 0 auto;
+}
+
+.contact-title {
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 900;
+  background: linear-gradient(180deg, #f0c5a0, #ffad60);
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact-p {
+  margin-bottom: 2.5rem;
+}
+
+/* Bottom container */
+#bottom-container {
+  background-color: #ffad60;
+  padding: 2rem 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #d9534f;
+  font-weight: 900;
+  margin: 0 1rem;
+}
+
+.footer-p {
+  color: white;
+  font-weight: 800;
 }
 
 /* Responsive */
