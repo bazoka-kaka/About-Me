@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: sans-serif, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-family: "Sacramento", cursive;
+  color: #8bc0a7;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-size: 1.2rem;
+}
+
+/* heading */
+
+.heading-container {
+  height: 100vh;
+  text-align: center;
+  background-color: #ffeead;
+  position: relative;
+}
+
+.heading-text-container {
+  width: 30rem;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-150%);
+}
+
+.cloud-img {
+  width: 100px;
+  position: absolute;
+}
+
+.mount-fuji {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: scale-down;
+}
+
+.cloud-bottom {
+  bottom: -110px;
+  left: -110px;
+}
+
+.cloud-top {
+  top: -110px;
+  right: -110px;
+}
+
+.dev {
+  border-bottom: 1px solid;
+}
+
+.heading-p {
+  font-size: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 750px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  /* heading content */
+  .heading-p {
+    font-size: 1.2rem;
+  }
+
+  .heading-text-container {
+    transform: translateY(-200%);
+    width: 20rem;
+  }
+
+  .cloud-img {
+    width: 5rem;
+  }
+
+  .cloud-bottom {
+    bottom: -70px;
+    left: -20px;
+  }
+
+  .cloud-top {
+    top: -70px;
+    right: -20px;
+  }
+
+  .mount-fuji {
+    width: 20rem;
+  }
+}
